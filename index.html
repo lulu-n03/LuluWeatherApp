@@ -10,24 +10,28 @@
 <body>
     <div class="app">
   <header>
-    <form>
-<input type="search" placeholder="Enter a city" required/>
-<input type="submit" value="Search"/>
+    <form class="search-form">
+<input type="search" placeholder="Enter a city..." required class="search-form-input"/>
+<input type="submit" value="Search" class="search-form-button"/>
 
 
     </form>
   </header>  
 
   <main>
+    <div class="app-data">
     <div>
-<h1> Cape Town </h1>
-<p>
+<h1 class="city"> Cape Town </h1>
+<p class="details">
 Thuesday 16:30, scattered clouds
 <br>
-Humidity: 66%,  Wind 3.25km/h
+Humidity: <strong>66%,</strong>  Wind <strong>3.25km/h</strong>
 </p>
 </div>
-<div> 🌤14℃<div>
+
+<div class="temperature"> <span class="weather-icon"> 🌤</span><span class="weather-temperature">14 </span><span class="weather-unit">℃</span>
+
+    </div>
   </main>
 
 
